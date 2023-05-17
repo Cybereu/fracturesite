@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fractionatrom</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Custom styles go here */
+    body {
+      background-color: #424250;
+      margin-bottom: 70px; /* Ajuste para evitar sobreposição do conteúdo pelo floating-bar */
+    }
+    .navbar {
+      background-color: #32333c;
+    }
+    .navbar-brand {
+      color: #ffffff;
+    }
+    .content,
+    .card-custom {
+      background-color: #363740;
+      color: #ffffff;
+      padding: 20px;
+      border-radius: 5px;
+    }
+    .floating-bar {
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #32333c;
+      padding: 10px;
+      box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+    }
+    .floating-bar .btn-container {
+      display: flex;
+      justify-content: center;
+    }
+    .floating-bar .btn {
+      width: 56px;
+      height: 56px;
+      padding: 10px;
+      border-radius: 50%;
+      background-color: #015d57;
+      color: #ffffff;
+      font-size: 14px;
+      margin: 0 5px;
+      border: none; /* Remove the border */
+    }
+    .floating-bar .btn.button2 {
+      width: 80px;
+      height: 80px;
+      margin-top: -30px; /* Increase the negative margin to move the button further up */
+      background-color: #1eb881;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Fracture detector 2000 version PowermegaX</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse ml-auto" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container content">
+    <!-- Page content goes here -->
+    <h1>Bem vindo</h1>
+    <p>É com satisfação que apresentamos nossa avançada solução de Inteligência Artificial (IA) para análise de imagens de
+      raio-x, capaz de identificar possíveis fraturas com excelência.<br> Nossa IA utiliza um modelo de alto desempenho,
+      meticulosamente treinado por especialista em ortopedia, resultando em uma avaliação precisa das imagens
+      radiográficas. <br> Nosso objetivo principal é fornecer uma ferramenta adicional de diagnóstico, em colaboração
+      com a expertise e interpretação do médico, para aprimorar o processo de diagnóstico.</p>
+  </div>
+
+  <div class="container">
+    <div class="card mt-4 card-custom">
+      <div class="card-body">
+        <h2 class="card-title">Análise simplificada de radiografias</h2>
+        <p class="card-text">Para iniciar a análise da radiografia, utilize os botões em verde localizados logo abaixo.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="card mt-4 card-custom">
+      <div class="card-body">
+        <h2 class="card-title">Privacidade</h2>
+        <p class="card-text">As imagens processadas não são armazenadas em nossos servidores, portanto, não temos acesso a
+          elas.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="card mt-4 card-custom">
+      <div class="card-body">
+        <h2 class="card-title">Teste</h2>
+        <p class="card-text">Aqui vai ter algo escrito uma hora ou outra. teste</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="floating-bar">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="btn-container ml-auto">
+            <button class="btn btn-primary btn-circle">1</button>
+            <button class="btn btn-primary btn-circle button2">Enviar</button>
+            <button class="btn btn-primary btn-circle">3</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.1/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
