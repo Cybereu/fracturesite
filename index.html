@@ -10,8 +10,6 @@
     /* Custom styles go here */
     body {
       background-color: #424250;
-      margin: 0; /* Add this to remove default margin */
-      padding-bottom: 80px; /* Add this to reserve space for the floating bar */
     }
     .navbar {
       background-color: #32333c;
@@ -19,7 +17,8 @@
     .navbar-brand {
       color: #ffffff;
     }
-    .content, .card-custom {
+    .content,
+    .card-custom {
       background-color: #363740;
       color: #ffffff;
       padding: 20px;
@@ -56,23 +55,13 @@
       margin-top: -30px; /* Increase the negative margin to move the button further up */
       background-color: #1eb881;
     }
-    .footer {
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: 80px;
-      background-color: #32333c;
-      z-index: 999;
-    }
   </style>
 </head>
 
 <body>
-
   <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
-      <a class="navbar-brand" href="#">1Fracture detector 2000 version PowermegaX3</a>
+      <a class="navbar-brand" href="#">1Fracture detector 2000 version PowermegaX</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -96,42 +85,58 @@
     </div>
   </nav>
 
-  <div class="container content">
-    <!-- Page content goes here -->
-    <h1>Bem vindo</h1>
-    <p>É com satisfação que apresentamos nossa avançada solução de Inteligência Artificial (IA) para análise de imagens de raio-x, capaz de identificar possíveis fraturas com excelência.<br>
-      Nossa IA utiliza um modelo de alto desempenho, meticulosamente treinado por especialista em ortopedia, resultando em uma avaliação precisa das imagens radiográficas. <br>
-      Nosso objetivo principal é fornecer uma ferramenta adicional de diagnóstico, em colaboração com a expertise e interpretação do médico, para aprimorar o processo de diagnóstico.</p>
-  </div>
-
   <div class="container">
-    <div class="card mt-4 card-custom">
-      <div class="card-body">
-        <h2 class="card-title">Análise simplificada de radiografias</h2>
-        <p class="card-text">Para iniciar a análise da radiografia, utilize os botões em verde localizados logo abaixo.</p>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card mt-4 card-custom">
+          <div class="card-body">
+            <h2 class="card-title">Card 1</h2>
+            <p class="card-text">Conteúdo do Card 1</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mt-4 card-custom">
+          <div class="card-body">
+            <h2 class="card-title">Card 2</h2>
+            <p class="card-text">Conteúdo do Card 2</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mt-4 card-custom">
+          <div class="card-body">
+            <h2 class="card-title">Card 3</h2>
+            <p class="card-text">Conteúdo do Card 3</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mt-4 card-custom">
+          <div class="card-body">
+            <h2 class="card-title">Card 4</h2>
+            <p class="card-text">Conteúdo do Card 4</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mt-4 card-custom">
+          <div class="card-body">
+            <h2 class="card-title">Card 5</h2>
+            <p class="card-text">Conteúdo do Card 5</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mt-4 card-custom">
+          <div class="card-body">
+            <h2 class="card-title">Card 6</h2>
+            <p class="card-text">Conteúdo do Card 6</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-
-  <div class="container">
-    <div class="card mt-4 card-custom">
-      <div class="card-body">
-        <h2 class="card-title">Privacidade</h2>
-        <p class="card-text">As imagens processadas não são armazenadas em nossos servidores, portanto, não temos acesso a elas./p>
-      </div>
-    </div>
-  </div>
-
-  <div class="container">
-    <div class="card mt-4 card-custom">
-      <div class="card-body">
-        <h2 class="card-title">Teste</h2>
-        <p class="card-text">Aqui vai ter algo escrito uma hora ou outra. teste</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="footer"></div> <!-- Add this empty div to reserve space for the floating bar -->
 
   <div class="floating-bar">
     <div class="container">
